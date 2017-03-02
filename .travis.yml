@@ -1,0 +1,17 @@
+language: java
+
+jdk:
+    - oraclejdk8
+
+script:
+    - mvn cobertura:cobertura
+ 
+deploy:
+  provider: s3
+  access_key_id: AKIAILGO3UX3D23FZNUQ
+  secret_access_key: 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
+  bucket: cps847-2563
+  endpoint: http://cps847-2563.s3-website-us-west-2.amazonaws.com
+  skip_cleanup: true
+  local-dir: website
+  region: us-west-2
