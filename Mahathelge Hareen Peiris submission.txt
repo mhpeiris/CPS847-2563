@@ -1,8 +1,0 @@
-Mahathelge Hareen Peiris, 500552563
-note: I've placed java code inside src folder
-
-i. CPS847-2563
-
-ii. https://s3-us-west-2.amazonaws.com/cps847-2563/dat.html
-
-iii. 
