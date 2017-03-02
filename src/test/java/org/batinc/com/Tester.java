@@ -34,9 +34,9 @@ public class Tester
         assertTrue( true );
     }
     
-    public void testEcho1() {
+    public void testing() {
 		cps2563 cps = new cps2563();
-    	assertEquals(2, cps.multi(2));
+    	assertEquals(4, cps.multi(2));
 	}
 	
 }
